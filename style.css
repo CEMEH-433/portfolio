@@ -120,6 +120,10 @@ body {
   background-image: url("img/icon-css.svg");
 }
 
+.skill-python {
+  background-image: url("img/python-logo.png");
+}
+
 .level {
   margin: 4px 0 16px;
   padding: 0;
