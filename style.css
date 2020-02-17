@@ -24,7 +24,7 @@ body {
 
 .page-header .container, .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align: left;
 }
 
 .page-header a {
@@ -33,6 +33,15 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.certificates {
+  list-style: none;
+}
+
+.certificates a {
+  text-decoration: none;
+  color: #0000FF;
 }
 
 .header-email {
@@ -196,4 +205,54 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+/* Мои внедрения */
+
+.main-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu li, .up a {
+  display: inline-block;
+  margin-right: 15px;
+  border: 1px solid #288be6;
+  border-radius: 12px;
+}
+
+.main-menu a {
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+
+.up a {
+  display: inline-block;
+  text-decoration: none;
+  color: #288be6;
+  padding: 10px 30px;
+}
+
+.main-menu li:hover, .up a:hover {
+  background-color: rgba(192, 192, 192, 0.3);;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.blocks h3 {
+  text-align: center;
+}
+
+.blocks dt, .blocks ul {
+  margin-top: 15px;
+}
+
+.blocks dt {
+  font-weight: 600;
 }
