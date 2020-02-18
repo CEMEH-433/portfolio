@@ -33,15 +33,8 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
-}
-
-.certificates {
-  list-style: none;
-}
-
-.certificates a {
-  text-decoration: none;
-  color: #0000FF;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 .header-email {
@@ -226,8 +219,6 @@ body {
   display: block;
   margin: 0;
   padding: 10px;
-  font-size: 16px;
-  line-height: 32px;
 }
 
 .up a {
@@ -260,4 +251,13 @@ body {
 
 .blocks dt {
   font-weight: 600;
+}
+
+.certificates {
+  list-style: none;
+}
+
+.certificates a {
+  text-decoration: none;
+  color: #0000FF;
 }
