@@ -23,7 +23,7 @@ body {
 }
 
 .page-header .container, .page-footer .container {
-  max-width: 1408px;
+  max-width: 928px;
   text-align: left;
 }
 
@@ -121,7 +121,7 @@ body {
 }
 
 .skill-python {
-  background-image: url("img/python-logo.png");
+  background-image: url("img/icon-python.svg");
 }
 
 .level {
