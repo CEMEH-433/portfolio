@@ -112,6 +112,14 @@ body {
   background-position: left;
 }
 
+.skill-windows {
+  background-image: url("img/icon-windows.svg");
+}
+
+.skill-linux {
+  background-image: url("img/icon-linux.svg");
+}
+
 .skill-html {
   background-image: url("img/icon-html.svg");
 }
