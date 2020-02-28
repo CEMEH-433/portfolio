@@ -251,6 +251,10 @@ body {
   flex-direction: row-reverse;
 }
 
+.block {
+  min-width: auto;
+}
+
 .blocks h3 {
   text-align: center;
 }
