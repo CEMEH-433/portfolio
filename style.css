@@ -229,6 +229,7 @@ body {
   display: block;
   margin: 0;
   padding: 10px;
+  min-height: auto;
 }
 
 .up a {
@@ -236,6 +237,7 @@ body {
   text-decoration: none;
   color: #288be6;
   padding: 10px 30px;
+  min-height: auto;
 }
 
 .main-menu li:hover, .up a:hover {
