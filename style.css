@@ -241,14 +241,16 @@ body {
 }
 
 .main-menu li:hover, .up a:hover {
-  background-color: rgba(192, 192, 192, 0.3);;
+  background-color: rgba(192, 192, 192, 0.3);
 }
 
-.blocks {
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
+@media (min-width: 992px) {
+  .blocks {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
 }
 
 .block {
