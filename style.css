@@ -213,6 +213,7 @@ body {
 /* Мои внедрения */
 
 .main-menu {
+  display: none;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -230,6 +231,18 @@ body {
   margin: 0;
   padding: 10px;
   min-width: auto;
+}
+
+.block-2, .box-2, .skills h3 {
+  padding-left: 40px;
+}
+
+.block-2 h3 {
+  margin-left: -40px;
+}
+
+.up {
+  display: none;
 }
 
 .up a {
@@ -269,6 +282,18 @@ body {
   .box-1 {
     grid-column: 3;
     grid-row: 1;
+  }
+  .main-menu {
+    display: inline-block;
+  }
+  .up {
+    display: inline-block;
+  }
+  .block-2, .box-2, .skills h3 {
+    padding-left: 0;
+  }
+  .block-2 h3 {
+    margin-left: 0;
   }
 }
 
