@@ -236,6 +236,7 @@ h2, h3 {
 
 .list-certificates {
   list-style: none;
+  text-align: left;
 }
 
 .list-certificates a {
@@ -325,7 +326,7 @@ footer {
   border-color: #66cc66;
 }
 
-@media (min-width: 881px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .hero {
     font-size: 30px;
   }
@@ -374,12 +375,9 @@ footer {
     grid-row: 3/4;
     justify-self: center;
   }
-  .list-learning {
-    margin-left: -52px;
-  }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 991px) {
   .hero {
     font-size: 28px;
   }
@@ -427,4 +425,10 @@ footer {
     grid-column: 1/2;
     grid-row: 4/5;
   }
+  .level {
+    height: 14px;
+  }  
+  .level div {
+    height: 12px;
+  }  
 }
