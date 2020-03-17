@@ -1,0 +1,52 @@
+.skills {
+    grid-column: 1/7;
+    grid-row: 4/5;
+    width: 90%;
+}
+
+.skills-list dt {
+    padding-left: 32px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.skill-windows {
+    background-image: url(../img/icon-windows.svg);
+}
+
+.skill-linux {
+    background-image: url(../img/icon-linux.svg);
+}
+
+.skill-html {
+    background-image: url(../img/icon-html.svg);
+}
+
+.skill-css {
+    background-image: url(../img/icon-css.svg);
+}
+
+.skill-python {
+    background-image: url(../img/icon-python.svg);
+}
+
+.skill-git {
+    background-image: url(../img/icon-git.svg);
+}
+
+.level {
+    margin: 4px 0 16px;
+    padding: 0;
+    height: 16px;
+    font-size: 0;
+    background-color: #ffffff;
+    border: 1px solid #86c3fa;
+    border-radius: 8px;
+}
+
+.level div {
+    margin: 1px;
+    height: 14px;
+    background-color: #288be6;
+    border-radius: 6px;
+}

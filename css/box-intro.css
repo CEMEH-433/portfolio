@@ -1,0 +1,66 @@
+.box-intro {
+    grid-column: 1/7;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+
+.intro {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.box-photo {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+}
+
+.box-photo>img {
+    max-width: 240px;
+    height: auto;
+    border-radius: 5%;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+.personal {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.laziness {
+    position: relative;
+}
+
+.box-laziness {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: -20px;
+}
+
+.box-laziness p {
+    text-indent: 30px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.laziness:hover .box-laziness {
+    display: inline-block;
+    width: 355%;
+    height: auto;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #FFFACD;
+    border: 1px solid #288be6;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+.professional {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}

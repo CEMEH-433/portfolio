@@ -3,12 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/box-intro.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/media.css">
   <link
     href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
     rel="stylesheet">
   <title>Геннадий Лукашов</title>
-  <link rel="shortcut icon" href="img/GL.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -104,6 +109,60 @@
       </dl>
     </div>
 
+    <div class="services">
+      <div class="services-subheading">
+        <h2>Мои услуги</h2>
+      </div>
+
+      <div class="service">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="img/slide-web-sites_.jpg" style="width:100%">
+            <div class="text">Разработка web-сайтов</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="img/slide-landing-page.jpg" style="width:100%">
+            <div class="text">Создание Landing page</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="img/slide-adaptive.jpg" style="width:100%">
+            <div class="text">Aдаптивная вёрстка с использованием CSS Grid</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="img/slide-html-css.jpg" style="width:100%">
+            <div class="text">Вёрстка в HTML и CSS</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="img/slide-python.jpg" style="width:100%">
+            <div class="text">Программирование на Python</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+      </div>
+    </div>
+
     <div class="portfolio">
       <div class="portfolio-subheading">
         <h2>Мои работы</h2>
@@ -190,6 +249,8 @@
 
     </div>
   </footer>
+
+  <script src="js/script.js"></script>
 
 </body>
 
