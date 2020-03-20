@@ -26,6 +26,10 @@
     background-image: url(../img/icon-css.svg);
 }
 
+.skill-js {
+    background-image: url(../img/icon-javascript.svg);
+}
+
 .skill-python {
     background-image: url(../img/icon-python.svg);
 }
