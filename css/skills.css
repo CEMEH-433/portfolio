@@ -38,6 +38,14 @@
     background-image: url(../img/icon-git.svg);
 }
 
+.skill-andriod {
+    background-image: url(../img/icon-android.svg);
+}
+
+.skill-inventor {
+    background-image: url(../img/icon-inventor.svg);
+}
+
 .level {
     margin: 4px 0 16px;
     padding: 0;
