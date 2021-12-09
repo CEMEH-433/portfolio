@@ -38,6 +38,10 @@
     background-image: url(../img/icon-git.svg);
 }
 
+.skill-mysql {
+    background-image: url(../img/icon-mysql.svg);
+}
+
 .skill-andriod {
     background-image: url(../img/icon-android.svg);
 }
