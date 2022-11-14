@@ -57,17 +57,7 @@
 }
 
 .certificates {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-.courses {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-.learning {
-    grid-column: 3/4;
+    grid-column: 2/2;
     grid-row: 2/3;
 }
 
